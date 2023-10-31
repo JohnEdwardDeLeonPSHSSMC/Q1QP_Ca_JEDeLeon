@@ -1,0 +1,213 @@
+/** FONT: Montserrat **/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+/** REMOVE ALL PADDING AND MARGIN **/
+*{
+    padding:0px;
+    margin:0px;
+}
+
+/** NAVBAR **/
+.navbar {
+    background-color:rgb(37, 3, 88);
+    width:100%;
+    height:5vh;
+    position:fixed;
+    padding-top:15px;
+    padding-left:15px;
+}
+
+/** NAVBAR BUTTONS **/
+.navbarbuttons {
+    font-family:'Montserrat';
+    display:inline;
+    color:white;
+    padding:10px;
+}
+
+/** NAVBAR BUTTONS LINKS **/
+.navbarbuttons a {
+    text-decoration:none;
+    color:white;
+}
+
+/** NAVBAR BUTTONS ANIMATION **/
+.navbarbuttons a:hover {
+    font-weight:bold;
+    transition-duration:0.3s;
+}
+
+/** ENDBAR **/
+.endbar {
+    background-color:rgb(37, 3, 88);
+    width:100%;
+    height:5vh;
+    padding-top:3px;
+    justify-content:right;
+    text-align:right;
+}
+
+/** COPYRIGHT **/
+.copyright {
+    font-family:'Montserrat';
+    color:white;
+}
+
+/** ENDBAR BUTTONS LINKS **/
+.endbarbuttons a {
+    justify-content:right;
+    text-align:right;
+    text-decoration:none;
+    color:white;
+}
+
+/** ENDBAR BUTTONS ANIMATION **/
+.endbarbuttons a:hover {
+    justify-content:right;
+    text-align:right;
+    font-weight:bold;
+    transition-duration:0.3s;
+}
+
+/** HOME PAGE BODY **/
+.homepagebody {
+    background-image:url(../images/backgroundimage.jpg);
+        padding-top:280px;
+        width:100%;
+        height:100vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+}
+
+/** HOME PAGE BODY (MODIFIED) **/
+.homepagebody2 {
+    background-image:url(../images/backgroundimage.jpg);
+        padding-top:30px;
+        width:100%;
+        height:100vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+}
+
+/** HOME PAGE FONT **/
+.homefont {
+    font-family:'Montserrat';
+    text-shadow: 1px 1px 1px black;
+    font-weight:bold;
+}
+
+/** SMALL HOME PAGE FONT **/
+#small1 {
+    font-size:25px;
+}
+
+/** NORMAL HOME PAGE FONT **/
+#normal1 {
+    font-size:50px;
+}
+
+/** ICON **/
+.icon {
+    width:25px;
+    height:25px;
+}
+
+/** NAVBOX **/
+#boldlink {
+    font-weight:bold;
+}
+
+/** PARAGRAPH **/
+.paragraph {
+    margin-top:10px;
+    margin-left:5px;
+    font-family:'Montserrat';
+    font-weight:bold;
+    color:white;
+    text-shadow:0.5px 0.5px 0.5px white;
+    opacity:100%;
+    width:90%;
+    align-items:center;
+    padding-left:20px;
+}
+
+/** INTRODUCTION **/
+.introduction {
+    margin-top:15px;
+    background-image:url(../images/teenagersusinggadgets.jpg);
+    opacity:75%;
+        padding-top:280px;
+        width:100%;
+        height:100vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+}
+
+/** HEADER 1 **/
+h1 {
+    font-size:100px;
+}
+
+/** HEADER 2 **/
+h2 {
+    font-size:40px;
+}
+
+/** HEADER 3 **/
+h3 {
+    font-size:25px;
+}
+
+/** WHITE TEXT **/
+#white {
+    color:white;
+}
+
+/** BLACK TEXT **/
+#black {
+    color:black;
+}
+
+/** LEFT **/
+#left {
+    justify-content:left;
+    text-align:left;
+}
+
+/** FONT AND SHADOW **/
+.fontshadow {
+    font-family:'Montserrat';
+    text-shadow:1px 1px 0.5px black;
+}
+
+/** ICON **/
+.icon2 {
+    width:200px;
+    height:200px;
+    border-radius:15px;
+}
+
+/** SET FONT WEIGHT TO NORMAL **/
+.normal {
+    font-weight:normal;
+}
+
+/** SET FONT WEIGHT TO BOLD **/
+.bold {
+    font-weight:bold;
+}
+
+/** TABLE HEADER **/
+.tableheader {
+    font-size:30px;
+}
